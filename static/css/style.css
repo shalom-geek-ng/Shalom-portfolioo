@@ -1,0 +1,476 @@
+/* General styling */
+
+*{
+ padding: 0;
+ margin: 0;   
+ list-style: none;
+ text-decoration: none;
+}
+body{
+  background-color: white;
+    background-size: cover;
+
+}
+
+
+.px{
+    padding: 0px 100px;
+}
+.df{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.px{
+    padding: 0px 100px;
+}
+.df{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+nav{
+    position: sticky;
+    width: auto;
+    z-index: 200;
+    top: 0;
+    background-color:rgb(18, 18, 56);
+    height: 70px;
+}
+nav a{
+    font-weight: 700;
+    font-family: var(--font);
+    text-transform: capitalize;
+    color: white;
+}
+nav a:hover{
+    color: red;
+    
+}
+nav li{
+    margin: 0px 20px;
+}
+#toggle{
+    display: none;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    min-width: fit-content;
+    width: 150px;
+    display: none;
+    z-index: 100;
+    background-color: white;
+    height: fit-content;
+    font-size: 27px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: block !important;
+    margin: 10px;
+    font-weight: 700 !important;
+    font-family: var(--font) !important;
+    text-transform: capitalize !important;
+}
+.heropage{
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+    
+ 
+}
+.herocontent2{
+    width: 30%;
+    height: 500px;
+    background-image: url(../image/shalom.png);
+    background-size: cover;
+   
+}
+.herocontent1{
+    width: 49%;
+    height: 300px;
+    padding-left: 50px;
+
+  
+}
+.shalom{
+    font-size: 17px;
+    color: white;
+}
+
+.h1{
+    font-size: 50px;
+}
+.btnn{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: black;
+    margin-top: 50px;
+    color: blue;
+    
+    
+}
+.d{
+    color: black;
+}
+.black{
+    color: black;
+}
+.btnn:hover{
+    color: white;
+    border:2px solid red;
+}
+.web-content{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.paragraph2{
+    text-align: center;
+    color: white;
+}
+.paragraph3{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin-top: 12px;
+}
+.web-content{
+    margin-top: 40px;
+}
+.Socialmedia{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    border-top: 2px rgb(18, 18, 56) solid;
+}
+.Web{
+    text-align: center;
+    margin-top: 40px;
+}
+.hding2{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;  
+}
+.big-container{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    padding-top: 15px;
+}
+.small-container{
+    width: 33%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+.hding4{
+    text-align: center;
+}
+.paragraph4{
+    font-size: 20px;
+    margin-top: 23px;
+}
+.my-portfolio{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    margin-top: 70px;
+    border-top: 2px solid rgb(18, 18, 56);
+}
+.portfolio{
+    text-align: center;
+    color: rgb(18, 18, 56);
+}
+.h5{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(18, 18, 56);
+}
+.big-portfolio-container{
+  
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    
+}
+.small-portfolio-container{
+ 
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+   
+}
+.image-portfolio1{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/goal.png);
+    background-size: cover;
+    
+}
+.image-portfolio2{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/cofee.png);
+    background-size: cover; 
+    margin-top: 50px;
+    
+}
+.image-portfolio3{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/Aptech.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.comment{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+.projects{
+    color: rgb(18, 18, 56);
+}
+.footer{
+    margin: auto;
+    width: 90%;
+    height: 30vh;
+    margin-top: 10px;
+    border-top: 2px solid rgb(18, 18, 56);
+   
+    
+}
+.Contact{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.social-media{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.last-container{
+    background-color:rgb(18, 18, 56);
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+  
+}
+   .small-last-container{
+    width: 30%;
+    height: 200px;
+    
+
+    
+   }
+.last-paragraph{
+    color: white;
+    text-align: center;
+}
+footer{
+    width: 90%;
+    margin: auto;
+    height: 20px;
+    background-color: green;
+}
+@media only screen and (max-width:915px) {
+    #lgnav{
+        display: none;
+    }
+ 
+   
+    #toggle{
+        display: inline-block !important;
+    }
+    .herocontent2{
+        width: 49%;
+        height: 300px;
+        background-image: url(../image/shalom.png);
+        background-size: cover;
+    }
+    .hding4{
+        text-align: center;
+    }
+  
+.h1{
+    font-size: 30px;
+}
+.paragraph3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 12px;
+}
+.hding2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;  
+  }
+  .big-container{
+    flex-wrap: wrap;
+  }
+  .small-container{
+    width: 49%;
+    height: fit-content;
+    margin-top: 10px;
+  }
+  .paragraph4{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.my-portfolio{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+   
+    margin-top: 200px;
+}
+.image-portfolio1{
+    width: 100%;
+    height: 200px;
+    background-image: url(../image/goal.png);
+    background-size: cover;
+ 
+}
+.image-portfolio2{
+    width: 100%;
+    height: 200px;
+    background-image: url(../image/cofee.png);
+    background-size: cover; 
+    margin-top: 50px;
+   
+}
+.image-portfolio3{
+    width: 100%;
+    height: 200px;
+    background-image: url(../image/Aptech.png);
+    background-size: cover;
+    margin-top: 50px;
+   
+}
+.small-portfolio-container{
+    margin-top: 0px;
+    height: 250px;
+   
+}
+.last-container{
+    display: inline-block !important;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+.small-last-container{
+ height: fit-content;
+ margin-bottom: 60px;
+
+}
+}
+@media only screen and (max-width:576px) {
+    #lgnav{
+        display: none;
+    }
+ 
+   
+    #toggle{
+        display: inline-block !important;
+    }
+    .herocontent2{
+        width: 42%;
+        height: 200px;
+        background-image: url(../image/shalom.png);
+        background-size: cover;
+    }
+  
+.h1{
+    font-size: 30px;
+}
+.paragraph3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 12px;
+}
+.hding2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;  
+  }
+  .hding4{
+    text-align: center;
+}
+.paragraph4{
+    font-size: 17px;
+    margin-top: 0px;
+}
+.big-container{
+    display: block !important;
+}
+ .small-container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+  }
+ 
+  .my-portfolio{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    margin-top: 240px;
+}
+.portfolio{
+    text-align: center;
+    color: rgb(18, 18, 56);
+    padding-top: 10px;
+}
+.image-portfolio1{
+    width: 100%;
+    height: 150px;
+    background-image: url(../image/goal.png);
+    background-size: cover;
+   
+}
+.image-portfolio2{
+    width: 100%;
+    height: 150px;
+    background-image: url(../image/cofee.png);
+    background-size: cover; 
+    margin-top: 50px;
+}
+.image-portfolio3{
+    width: 100%;
+    height: 150px;
+    background-image: url(../image/Aptech.png);
+    background-size: cover;
+    margin-top: 50px;
+  
+}
+.small-portfolio-container{
+    margin-top: 0px;
+    height: 200px;
+   
+}
+}
+
